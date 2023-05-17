@@ -27,4 +27,6 @@
 - Перейти по адресу ```http://127.0.0.1:8000/docs```
 
 ### Пример запроса к POST API
-
+![1](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/0005366b-eaba-4390-bf57-e6c71fed6cf3)  
+![2](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/fab889b6-9e10-4528-884c-8a7d3ef95966)  
+![3](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/8cf77e87-3678-4a1e-8aa7-aea8e0063f90)  
