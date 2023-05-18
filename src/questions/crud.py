@@ -3,7 +3,7 @@ import json
 from fastapi import HTTPException
 from sqlalchemy.orm import Session
 
-from .models import Question
+from src.questions.models import Question
 
 
 def get_question_from_database(response: json, db: Session) -> bool:

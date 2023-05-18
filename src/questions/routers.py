@@ -6,10 +6,10 @@ from sqlalchemy.orm import Session
 
 from src.utils import get_db
 
-from .crud import add_question, get_question_from_database
-from .models import Question
-from .schemas import LastQuestion
-from .utils import get_response
+from src.questions.crud import add_question, get_question_from_database
+from src.questions.models import Question
+from src.questions.schemas import LastQuestion
+from src.questions.utils import get_response
 
 
 ques_router = APIRouter(prefix='/question', tags=['questions'])
