@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .questions.routers import ques_router
+from src.questions.routers import ques_router
 
 
 app = FastAPI(title='Test_task_Bewise.ai')

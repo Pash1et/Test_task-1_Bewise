@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from sqlalchemy.exc import OperationalError
 
-from .database import SessionLocal
+from src.database import SessionLocal
 
 
 def get_db():
