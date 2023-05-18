@@ -16,7 +16,7 @@ def get_question_from_database(response: json, db: Session) -> bool:
         return False
 
 
-def add_question(response: json, db: Session) -> dict | None:
+def add_question(response: json, db: Session) -> None:
     if response is None:
         raise HTTPException(
             status_code=404,
