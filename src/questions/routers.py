@@ -30,7 +30,7 @@ def request_question(
     last_question = db.query(Question).order_by(desc('id')).first()
 
     exists_question = get_question_from_database(response, db)
-    if exists_question:
+    while exists_question:
         response = get_response(questions_num)
 
     add_question(response, db)
