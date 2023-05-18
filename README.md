@@ -21,12 +21,13 @@
 
 ### Запуск проекта
 - Скачать и установить [Docker](https://docs.docker.com/get-docker/)
-- Клонировать репозиторий ```git clone ``` 
+- Клонировать репозиторий ```git clone``` 
 - В корне директории test_task-1_bewise создать файл .env и заполнить его по примеру .env.example
 - В папке infra выполнить команду ```docker compose up -d```
 - Перейти по адресу ```http://127.0.0.1:8000/docs```
 
 ### Пример запроса к POST API
-![1](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/0005366b-eaba-4390-bf57-e6c71fed6cf3)  
-![2](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/fab889b6-9e10-4528-884c-8a7d3ef95966)  
-![3](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/8cf77e87-3678-4a1e-8aa7-aea8e0063f90)  
+![1](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/1ab8c9f0-8835-4ace-8a6c-be7300daaf05)
+![2](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/60298ccc-6c20-486e-9b58-a8f82b888ca3)
+![3](https://github.com/Pash1et/Test_task-1_Bewise/assets/64920375/220db258-bf29-4d95-a589-53d92bc430fc)
+
