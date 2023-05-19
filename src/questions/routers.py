@@ -32,6 +32,7 @@ def request_question(
     exists_question = get_question_from_database(response, db)
     while exists_question:
         response = get_response(questions_num)
+        exists_question = get_question_from_database(response, db)
 
     add_question(response, db)
 
