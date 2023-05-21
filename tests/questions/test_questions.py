@@ -12,6 +12,6 @@ def test_first_post(client):
 def test_second_post(client):
     """Добавление второго и последующих вопросов в БД."""
     response = client.post(f'/question/?questions_num={const.COUNT}')
-    response = client.post(f'/question/?questions_num={const.COUNT}')
+
     assert response.status_code == 200
     assert response.json()['question'] is not None
