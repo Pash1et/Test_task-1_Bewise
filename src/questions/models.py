@@ -1,4 +1,5 @@
-from sqlalchemy import Column, DateTime, Integer, String
+from sqlalchemy.orm import Mapped, mapped_column
+from datetime import datetime
 
 from src.database import Base
 
@@ -6,8 +7,8 @@ from src.database import Base
 class Question(Base):
     __tablename__ = 'question'
 
-    id = Column(Integer, primary_key=True, index=True)
-    question_id = Column(Integer, nullable=False)
-    question = Column(String, nullable=False)
-    answer = Column(String, nullable=False)
-    created_at = Column(DateTime, nullable=False)
+    id: Mapped[int] = mapped_column(primary_key=True, index=True)
+    question_id: Mapped[int] = mapped_column(nullable=False)
+    question: Mapped[str] = mapped_column(nullable=False)
+    answer: Mapped[str] = mapped_column(nullable=False)
+    created_at: Mapped[datetime] = mapped_column(nullable=False)
