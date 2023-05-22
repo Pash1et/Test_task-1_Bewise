@@ -1,7 +1,6 @@
 from sqlalchemy.orm import Mapped, mapped_column
 from datetime import datetime
-
-from src.database import Base
+from src.models import Base
 
 
 class Question(Base):

@@ -5,7 +5,7 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from src.database import Base
+from src.models import Base
 from src.questions.models import Question
 from config import (DB_HOST, DB_PORT, POSTGRES_DB,
                     POSTGRES_PASSWORD, POSTGRES_USER)
